@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset 
+  xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
+>
+  <!-- Hauptseite -->
+  <url>
+    <loc>https://BrittanyRhyder.github.io/BrittanyRhyder/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+    
+    <!-- Bilder auf der Hauptseite -->
+    <image:image>
+      <image:loc>https://BrittanyRhyder.github.io/BrittanyRhyder/BrittanyRhyder%201.jpg</image:loc>
+      <image:title>Brittany Rhyder Photo 1</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://BrittanyRhyder.github.io/BrittanyRhyder/BrittanyRhyder%202.jpg</image:loc>
+      <image:title>Brittany Rhyder Photo 2</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://BrittanyRhyder.github.io/BrittanyRhyder/BrittanyRhyder%203.jpg</image:loc>
+      <image:title>Brittany Rhyder Photo 3</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://BrittanyRhyder.github.io/BrittanyRhyder/BrittanyRhyder%204.jpg</image:loc>
+      <image:title>Brittany Rhyder Photo 4</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://BrittanyRhyder.github.io/BrittanyRhyder/BrittanyRhyder%205.jpg</image:loc>
+      <image:title>Brittany Rhyder Photo 5</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://BrittanyRhyder.github.io/BrittanyRhyder/BrittanyRhyder%206.jpg</image:loc>
+      <image:title>Brittany Rhyder Photo 6</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://BrittanyRhyder.github.io/BrittanyRhyder/BrittanyRhyder%207.jpg</image:loc>
+      <image:title>Brittany Rhyder Photo 7</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://BrittanyRhyder.github.io/BrittanyRhyder/BrittanyRhyder%208.jpg</image:loc>
+      <image:title>Brittany Rhyder Photo 8</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://BrittanyRhyder.github.io/BrittanyRhyder/BrittanyRhyder%209.jpg</image:loc>
+      <image:title>Brittany Rhyder Photo 9</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://BrittanyRhyder.github.io/BrittanyRhyder/BrittanyRhyder%2010.jpg</image:loc>
+      <image:title>Brittany Rhyder Photo 10</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://BrittanyRhyder.github.io/BrittanyRhyder/BrittanyRhyder%2011.jpg</image:loc>
+      <image:title>Brittany Rhyder Photo 11</image:title>
+    </image:image>
+  </url>
+</urlset>
