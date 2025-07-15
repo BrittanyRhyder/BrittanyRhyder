@@ -17,44 +17,48 @@
       color: #222;
     }
     header {
-      position: relative;
+      background-color: #222;
+      color: #fff;
       text-align: center;
-      color: white;
-      background-color: #222; /* dunkler Hintergrund für bessere Lesbarkeit */
-      padding: 1rem 0;
-    }
-    header img {
-      width: 100%;
-      height: auto;
-      object-fit: contain;
-      display: block;
-      max-height: 400px; /* max Höhe, kannst du anpassen */
-      margin: 0 auto;
+      padding: 1.5rem 1rem;
     }
     header h1 {
-      position: relative; /* nicht mehr absolut, damit Titel unter dem Bild steht */
-      margin-top: 1rem;
-      font-size: 2.5rem;
-      color: #222;
-      text-shadow: none;
+      margin: 0;
+      font-size: 1.8rem;
+      letter-spacing: 1px;
     }
     main {
       max-width: 960px;
-      margin: 1.5rem auto 2rem;
+      margin: 1rem auto 2rem;
       padding: 0 1rem;
+    }
+    /* First image full width */
+    .featured-image {
+      width: 100%;
+      border-radius: 8px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+      margin-bottom: 1.5rem;
+      cursor: pointer;
+      transition: transform 0.3s ease;
+    }
+    .featured-image:hover {
+      transform: scale(1.03);
+    }
+    /* Grid for other images */
+    .gallery-grid {
       display: grid;
       grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
       gap: 1rem;
     }
-    main img {
+    .gallery-grid img {
       width: 100%;
       height: auto;
       border-radius: 8px;
       box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-      transition: transform 0.3s ease;
       cursor: pointer;
+      transition: transform 0.3s ease;
     }
-    main img:hover {
+    .gallery-grid img:hover {
       transform: scale(1.05);
     }
     footer {
@@ -64,13 +68,12 @@
       padding: 1rem 0;
       border-top: 1px solid #ddd;
     }
-
-    /* Responsive typography and layout */
+    /* Responsive typography */
     @media (max-width: 600px) {
       header h1 {
-        font-size: 1.8rem;
+        font-size: 1.4rem;
       }
-      main {
+      .gallery-grid {
         grid-template-columns: 1fr;
       }
     }
@@ -78,21 +81,32 @@
 </head>
 <body>
   <header>
-    <img src="BrittanyRhyder 1.jpg" alt="Brittany Rhyder Featured Photo" loading="lazy" />
     <h1>Brittany Rhyder - Official Photo Gallery</h1>
   </header>
 
   <main>
-    <img src="BrittanyRhyder 2.jpg" alt="Brittany Rhyder Photo 2" loading="lazy" />
-    <img src="BrittanyRhyder 3.jpg" alt="Brittany Rhyder Photo 3" loading="lazy" />
-    <img src="BrittanyRhyder 4.jpg" alt="Brittany Rhyder Photo 4" loading="lazy" />
-    <img src="BrittanyRhyder 5.jpg" alt="Brittany Rhyder Photo 5" loading="lazy" />
-    <img src="BrittanyRhyder 6.jpg" alt="Brittany Rhyder Photo 6" loading="lazy" />
-    <img src="BrittanyRhyder 7.jpg" alt="Brittany Rhyder Photo 7" loading="lazy" />
-    <img src="BrittanyRhyder 8.jpg" alt="Brittany Rhyder Photo 8" loading="lazy" />
-    <img src="BrittanyRhyder 9.jpg" alt="Brittany Rhyder Photo 9" loading="lazy" />
-    <img src="BrittanyRhyder 10.jpg" alt="Brittany Rhyder Photo 10" loading="lazy" />
+    <!-- First image full width -->
+    <img 
+      src="BrittanyRhyder 1.jpg" 
+      alt="Brittany Rhyder Photo 1" 
+      loading="lazy" 
+      class="featured-image"
+    />
+
+    <!-- Grid with remaining images -->
+    <div class="gallery-grid">
+      <img src="BrittanyRhyder 2.jpg" alt="Brittany Rhyder Photo 2" loading="lazy" />
+      <img src="BrittanyRhyder 3.jpg" alt="Brittany Rhyder Photo 3" loading="lazy" />
+      <img src="BrittanyRhyder 4.jpg" alt="Brittany Rhyder Photo 4" loading="lazy" />
+      <img src="BrittanyRhyder 5.jpg" alt="Brittany Rhyder Photo 5" loading="lazy" />
+      <img src="BrittanyRhyder 6.jpg" alt="Brittany Rhyder Photo 6" loading="lazy" />
+      <img src="BrittanyRhyder 7.jpg" alt="Brittany Rhyder Photo 7" loading="lazy" />
+      <img src="BrittanyRhyder 8.jpg" alt="Brittany Rhyder Photo 8" loading="lazy" />
+      <img src="BrittanyRhyder 9.jpg" alt="Brittany Rhyder Photo 9" loading="lazy" />
+      <img src="BrittanyRhyder 10.jpg" alt="Brittany Rhyder Photo 10" loading="lazy" />
+    </div>
   </main>
 
 </body>
+</html>
 </html>
