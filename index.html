@@ -20,24 +20,23 @@
       position: relative;
       text-align: center;
       color: white;
+      background-color: #222; /* dunkler Hintergrund für bessere Lesbarkeit */
+      padding: 1rem 0;
     }
     header img {
       width: 100%;
       height: auto;
-      max-height: 60vh;
-      object-fit: cover;
+      object-fit: contain;
       display: block;
-      filter: brightness(0.85);
+      max-height: 400px; /* max Höhe, kannst du anpassen */
+      margin: 0 auto;
     }
     header h1 {
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-      margin: 0;
+      position: relative; /* nicht mehr absolut, damit Titel unter dem Bild steht */
+      margin-top: 1rem;
       font-size: 2.5rem;
-      text-shadow: 0 0 10px rgba(0,0,0,0.7);
-      letter-spacing: 1px;
+      color: #222;
+      text-shadow: none;
     }
     main {
       max-width: 960px;
